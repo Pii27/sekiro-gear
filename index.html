@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sekiro Gear - Home</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css"> <!-- Link ke file CSS yang baru -->
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/img/logo1.png" alt="Sekiro Gear Logo" class="logo me-2">
+            </a>
+            <a class="navbar-brand" href="index.html">Sekiro Gear</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- Left-aligned links -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <!-- Right-aligned elements -->
+                <ul class="navbar-nav ms-auto">
+                    <!-- Searchbar -->
+                    <li class="nav-item">
+                        <form class="d-flex">
+                            <input class="form-control searchbar" type="search" placeholder="Cari" aria-label="Search">
+                            <button class="btn btn-outline-light" type="submit">Cari</button>
+                        </form>
+                    </li>
+                    <!-- Login & Register -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Produk Diskon -->
+    <div class="container mt-5" id="discounted-product">
+        <h2 class="text-center mb-4">Product Diskon</h2>
+        <div class="row">
+            <!-- Gambar Produk di Sebelah Kiri -->
+            <div class="col-md-6">
+                <div class="card product-card">
+                    <img src="https://via.placeholder.com/600x400" class="card-img-top product-img" alt="Mouse Gaming Diskon">
+                </div>
+            </div>
+
+            <!-- Spesifikasi Produk di Sebelah Kanan -->
+            <div class="col-md-6">
+                <h3>Mouse Gaming RGB (Diskon)</h3>
+                <p class="lead">Presisi dan kenyamanan dengan pencahayaan RGB yang dapat disesuaikan.</p>
+                <ul>
+                    <li>Resolusi: 16000 DPI</li>
+                    <li>Tombol yang Dapat Diprogram: 7 tombol</li>
+                    <li>Pencahayaan: RGB, 16.8 juta warna</li>
+                    <li>Koneksi: USB kabel 1.8 meter</li>
+                    <li>Kompatibilitas: Windows, macOS, Linux</li>
+                </ul>
+                <p><strong>Harga Asli: R299.000</strong></p>
+                <p class="text-danger"><strong>Harga Diskon: Rp199.000</strong></p>
+                <a href="#" class="btn btn-primary">Tambahkan ke Keranjang</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer (Tentang Kami di sini) -->
+    <footer class="footer mt-5">
+        <div class="container text-center">
+            <h4>Tentang Sekiro Gear</h4>
+            <p>Sekiro Gear adalah toko terkemuka untuk aksesoris gaming berkualitas tinggi. Kami menyediakan berbagai produk gaming seperti mouse, keyboard, headset, dan aksesoris lainnya untuk meningkatkan pengalaman bermain game Anda.</p>
+            <p>&copy; 2024 Sekiro Gear. All right reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

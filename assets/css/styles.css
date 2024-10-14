@@ -1,0 +1,58 @@
+/* Mengatur background gambar untuk body */
+/* Mengatur background gambar untuk body */
+body {
+    background-image: url('../img/background.jpg'); /* Jalur relatif ke gambar background lokal */
+    background-size: cover; /* Gambar akan menutupi seluruh background */
+    background-position: center; /* Pusatkan gambar */
+    background-repeat: no-repeat; /* Hindari pengulangan gambar */
+    color: #ffffff; /* Pastikan teks terlihat dengan warna putih */
+}
+
+/* Mengatur logo agar terlihat proporsional */
+.logo {
+    height: 40px; /* Atur tinggi logo agar sesuai dengan navbar */
+    width: auto; /* Menjaga proporsi logo */
+}
+
+
+
+/* Navbar */
+.navbar {
+    background-color: rgba(52, 58, 64, 0.9); /* Navbar semi transparan */
+}
+
+.navbar-brand {
+    color: #ffffff;
+}
+
+/* Kartu Produk */
+.product-card {
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    background-color: #343a40; /* Warna background untuk produk */
+    color: #ffffff;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Gambar Produk */
+.product-img {
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Footer */
+.footer {
+    background-color: rgba(52, 58, 64, 0.9);
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+/* Searchbar */
+.searchbar {
+    width: 200px;
+    margin-right: 10px;
+}
